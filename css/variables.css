@@ -5,6 +5,10 @@
   --whiteish: #f6f6f6;
   --greyish: #cacaca;
   --darkish: #839788;
+  --box-shadow: rgba(0, 0, 0, 0.25);
+  --border-radius: 5px;
+  --margin-between: 7px 0px 7px 0px;
+  --transition-duration: 0.15s;
 }
 
 /* ubuntu-regular - latin */
@@ -20,4 +24,5 @@
 
 body {
   font-family: "Ubuntu", "Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif";
+  color: var(--first-color);
 }
