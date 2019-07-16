@@ -1,7 +1,7 @@
 :root {
-  --first-color: #454545;
-  --second-color: #ee6352;
-  --third-color: #4dc67d;
+  --primary: #454545;
+  --secondary: #ee6352;
+  --complementary: #4dc67d;
   --whiteish: #f6f6f6;
   --greyish: #cacaca;
   --darkish: #7c8f81;
@@ -10,6 +10,58 @@
   --border-radius: 5px;
   --margin-between: 7px 0px 7px 0px;
   --transition-duration: 0.15s;
+}
+
+/* For background color */
+
+.primary {
+  background: var(--primary) !important;
+}
+
+.secondary {
+  background: var(--secondary) !important;
+}
+
+.complementary {
+  background: var(--complementary) !important;
+}
+
+.whiteish {
+  background: var(--whiteish) !important;
+}
+
+.greyish {
+  background: var(--greyish) !important;
+}
+
+.darkish {
+  background: var(--darkish) !important;
+}
+
+/* For text color */
+
+.primary-text {
+  color: var(--primary) !important;
+}
+
+.secondary-text {
+  color: var(--secondary) !important;
+}
+
+.complementary-text {
+  color: var(--complementary) !important;
+}
+
+.whiteish-text {
+  color: var(--whiteish) !important;
+}
+
+.greyish-text {
+  color: var(--greyish) !important;
+}
+
+.darkish-text {
+  color: var(--darkish) !important;
 }
 
 /* ubuntu-regular - latin */
@@ -25,5 +77,5 @@
 
 body {
   font-family: "Ubuntu", "Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif";
-  color: var(--first-color);
+  color: var(--primary);
 }
