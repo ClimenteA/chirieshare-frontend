@@ -1,0 +1,44 @@
+/* Button styles */
+
+.btn,
+button {
+  all: unset;
+}
+
+.btn,
+button {
+  display: inline-block;
+  background: var(--first-color);
+  max-width: 90vw;
+  min-height: 20px;
+  min-width: 20px;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  opacity: 100;
+  transition-property: opacity box-shadow;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+  user-select: none;
+  -moz-user-select: none;
+  text-align: center;
+  margin: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.btn:hover,
+button:hover {
+  opacity: 0.85;
+}
+
+.btn:active,
+button:active {
+  opacity: 100;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}

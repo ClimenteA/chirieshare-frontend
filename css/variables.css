@@ -1,0 +1,23 @@
+:root {
+  --first-color: #454545;
+  --second-color: #ee6352;
+  --third-color: #4dc67d;
+  --whiteish: #f6f6f6;
+  --greyish: #cacaca;
+  --darkish: #839788;
+}
+
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu Regular"), local("Ubuntu-Regular"),
+    url("./fonts/ubuntu-v13-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/ubuntu-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+  font-family: "Ubuntu", "Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif";
+}
