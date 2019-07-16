@@ -42,3 +42,12 @@ button:active {
   opacity: 100;
   box-shadow: 0px 0px 0px var(--shadow);
 }
+
+button.outlined,
+.btn.outlined {
+  background: transparent;
+  border: 2px solid var(--first-color);
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  color: var(--first-color);
+}
