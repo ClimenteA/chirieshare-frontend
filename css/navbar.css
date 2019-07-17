@@ -14,14 +14,13 @@ nav > ul {
   flex-flow: row wrap;
   width: 100%;
   justify-content: flex-end;
-  align-items: stretch;
 }
 
 nav > ul > li {
   padding-left: 10px;
   padding-right: 10px;
   cursor: pointer;
-  line-height: 45px;
+  line-height: 50px;
   background-color: var(--primary);
   transition-property: background-color;
   transition-duration: var(--transition-duration);
