@@ -13,7 +13,6 @@ nav > ul {
   flex-direction: row;
   flex-flow: row wrap;
   width: 100%;
-  border: 2px solid blue;
   justify-content: flex-end;
   align-items: stretch;
 }
@@ -40,9 +39,11 @@ nav > ul > li:active {
 }
 
 nav > ul > li.logo {
-  justify-self: start;
+  justify-self: flex-start;
+  margin-right: auto;
 }
 
 nav > ul > li.menu {
-  justify-self: end;
+  justify-self: flex-end;
+  margin-left: auto;
 }
