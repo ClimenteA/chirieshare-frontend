@@ -10,3 +10,11 @@ span.tip {
 .bold {
   font-weight: bold;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

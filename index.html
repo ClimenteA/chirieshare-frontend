@@ -23,7 +23,7 @@
       <h2>Input text/tel</h2>
 
       <label for="loc">
-        <span>Localitate</span>
+        <span class="secondary-text">Localitate</span>
         <input type="text" id="loc" placeholder="text input" />
       </label>
 
@@ -38,6 +38,36 @@
     <span class="tip">
       Filtrele se fac automat pe baza anunturilor adaugate la favorite!
     </span>
+
+    <h2>Simple card with title text content and right corner info</h2>
+
+    <article class="card">
+      <h3 class="title">Descriere</h3>
+      <p>
+        Apartamentul este situat aproape de supermarchet, de statiile de
+        autobuz. Se gaseste din pacate greu loc de parcare, dar daca ai
+        bicicleta poti sa o iei in apartament.
+      </p>
+      <span class="right bold secondary-text"> Pret: 200 euro </span>
+    </article>
+
+    <h2>User card with image info and contact details</h2>
+
+    <article class="card user">
+      <section class="profile">
+        <img src="ca.jpg" />
+        <span class="name">Climente Alin</span>
+        <span class="about">Inginer, M, 28 ani</span>
+      </section>
+
+      <section class="contact">
+        <h3 class="bold">Contact</h3>
+        <button class="darkish">07151321251</button>
+        <button class="darkish">
+          alin.climente@gmail.com
+        </button>
+      </section>
+    </article>
 
     <style>
       body {
