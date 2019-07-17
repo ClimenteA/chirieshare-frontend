@@ -1,10 +1,14 @@
 :root {
   --primary: #454545;
+  --primary-lighten: #525151;
   --secondary: #ee6352;
+  --secondary-lighten: #eb7060;
   --complementary: #4dc67d;
+  --complementary-lighten: #58cf88;
   --whiteish: #f6f6f6;
   --greyish: #cacaca;
   --darkish: #7c8f81;
+  --darkish-lighten: #85998a;
 
   --box-shadow: rgba(0, 0, 0, 0.25);
   --border-radius: 5px;
