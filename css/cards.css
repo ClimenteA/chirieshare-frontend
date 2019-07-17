@@ -49,3 +49,57 @@ article.card.user > section.profile > span.name {
 article.card.user > section.profile > span.about {
   font-size: calc(1rem - 0.2rem);
 }
+
+article.card.product {
+  position: relative;
+  padding: 0;
+  height: 300px;
+  min-width: 300px;
+  width: 100%;
+  border: none;
+}
+
+article.card.product > img {
+  height: inherit;
+  min-width: inherit;
+  width: inherit;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid var(--greyish);
+  border-radius: var(--border-radius);
+}
+
+article.card.product > img.fav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  min-width: unset;
+  border: none;
+  cursor: pointer;
+}
+
+article.card.product > span.price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  margin: 20px;
+}
+
+article.card.product > .title {
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background: var(--whiteish);
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 80%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
