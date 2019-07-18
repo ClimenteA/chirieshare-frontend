@@ -1,0 +1,11 @@
+@import "./reset.css";
+
+@import "./variables.css";
+@import "./utilities.css";
+@import "./navbar.css";
+@import "./footer.css";
+@import "./buttons.css";
+@import "./inputs.css";
+@import "./cards.css";
+@import "./landing.css";
+@import "./layouts.css";
