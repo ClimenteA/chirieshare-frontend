@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Listings</title>
   </head>
-  <body class="city gradient-overlay">
+  <body>
     <header>
       <nav>
         <ul>
@@ -19,11 +19,37 @@
 
     <main>
 
-        <img src="./icons/landing_logo.svg" />
-        <div class="landing-action">
-          <p class="whiteish-text">Gaseste <strong>camere</strong>  (sau locuinte) <strong>de inchiriat</strong> in zona ta!</p>
-          <button class="outlined">Continua</button>
+      <div class="filters">
+
+        <div class="filters-inputs">
+
+            <label for="loc">
+                <span>Localitate</span>
+                <input type="text" id="loc" placeholder="text input" />
+              </label>
+        
+              <label for="zona">
+                <span>Zona</span>
+                <input type="tel" id="zona" placeholder="tel input" />
+              </label>
+              
         </div>
+          
+        
+          <div>
+              <button class="sm secondary bold">caut camere</button>
+              <span class="tip">sau</span>
+              <button class="sm darkish bold">caut apartament</button>    
+          </div>
+
+          <p class="tip mtop">
+              Filtrele se fac automat! <br>
+              (pe baza anunturilor adaugate la favorite)
+          </p>
+  
+      </div>
+        
+      
         
     </main>
 
@@ -32,6 +58,7 @@
       <a href="#">Politica de Confidentialitate</a>
       <a href="#">Termeni si Conditii</a>
       <a href="#">Intrebari frecvente</a>
+      <a href="#">Contact</a>
     </footer>
 
     <!-- <div class="tested-element">

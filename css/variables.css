@@ -5,7 +5,8 @@
   --secondary-lighten: #eb7060;
   --complementary: #4dc67d;
   --complementary-lighten: #58cf88;
-  --whiteish: #f6f6f6;
+  --whiteish: #F7F7F7;
+  --whiteish-lighten: rgb(245, 241, 241);
   --greyish: #E5E5E5;
   --darkish: #7c8f81;
   --darkish-lighten: #85998a;
