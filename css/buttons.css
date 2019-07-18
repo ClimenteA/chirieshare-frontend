@@ -19,7 +19,8 @@ button {
   cursor: pointer;
   border-radius: var(--border-radius);
   box-shadow: 0px 6px 6px var(--box-shadow);
-  transition-property: background-color box-shadow;
+  opacity: 100;
+  transition-property: opacity box-shadow;
   transition-duration: var(--transition-duration);
   transition-timing-function: ease-in-out;
   user-select: none;
@@ -33,20 +34,15 @@ button {
 
 .btn:hover,
 button:hover {
-  background-color: var(--primary-lighten);
+  opacity: .8;
 }
 
 .btn:active,
 button:active {
-  background-color: var(--primary);
+  opacity: 100;
   box-shadow: 0px 0px 0px var(--shadow);
 }
 
-button.outlined,
-.btn.outlined {
-  background: transparent;
-  border: 2px solid var(--primary);
-  box-sizing: border-box;
-  border-radius: var(--border-radius);
-  color: var(--primary);
-}
+
+
+

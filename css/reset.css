@@ -27,3 +27,15 @@ ol,
 ul {
   list-style: none;
 }
+
+
+a {
+  margin: 7px 0px 7px 0px;
+  text-decoration: none;
+  color: #454545;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
