@@ -34,6 +34,17 @@ article.card.user > section.profile {
   border-right: 2px solid var(--darkish);
 }
 
+@media only screen and (max-width: 500px) {
+  article.card.user {
+    grid-template-columns: 1fr;
+  }
+
+  article.card.user > section.profile {
+    border: none;
+    margin-bottom: 1rem;
+  }
+}
+
 article.card.user > section.profile > img {
   height: 80px;
   width: 80px;
