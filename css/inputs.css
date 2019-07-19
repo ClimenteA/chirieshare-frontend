@@ -21,6 +21,7 @@ input[type="text"] {
   transition-property: box-shadow;
   transition-duration: var(--transition-duration);
   transition-timing-function: ease-in-out;
+  background: rgb(245, 241, 241);
 }
 
 input[type="tel"]:focus,

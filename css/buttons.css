@@ -43,6 +43,14 @@ button:active {
   box-shadow: 0px 0px 0px var(--shadow);
 }
 
-
+.btn.sm,
+button.sm {
+  min-height: 20px;
+  min-width: 20px;
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: calc(1rem - 0.1rem); 
+}
 
 
