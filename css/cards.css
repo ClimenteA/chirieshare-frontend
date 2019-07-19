@@ -57,6 +57,14 @@ article.card.product {
   min-width: 300px;
   width: 100%;
   border: none;
+  transition-property: transform box-shadow;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: ease-in-out;
+}
+
+article.card.product:hover {
+  transform: scale(1.005);
+  box-shadow: 0px 10px 10px var(--box-shadow);
 }
 
 article.card.product > img {
@@ -102,5 +110,39 @@ article.card.product > .title {
   max-width: 80%;
   text-overflow: ellipsis;
   overflow: hidden;
+  cursor: pointer;
   box-shadow: 0px 6px 6px var(--box-shadow);
+}
+
+@media only screen and (max-width: 640px) {
+  article.card.product {
+    height: 280px;
+  }
+
+  article.card.product > .title,
+  article.card.product > span.price {
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  article.card.product {
+    height: 250px;
+  }
+
+  article.card.product > .title,
+  article.card.product > span.price {
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  article.card.product {
+    height: 200px;
+  }
+
+  article.card.product > .title,
+  article.card.product > span.price {
+    transform: scale(0.7);
+  }
 }

@@ -1,8 +1,6 @@
 body {
   display: grid;
-  width: 100vw;
   max-width: 1366px;
-  height: 100vh;
   grid-template-areas:
     "header"
     "main"
