@@ -34,7 +34,7 @@ button {
 
 .btn:hover,
 button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .btn:active,
@@ -50,7 +50,21 @@ button.sm {
   padding: 8px;
   padding-left: 14px;
   padding-right: 14px;
-  font-size: calc(1rem - 0.1rem); 
+  font-size: calc(1rem - 0.1rem);
 }
 
+.outlined {
+  border: 2px solid var(--primary);
+}
 
+.outlined-secondary {
+  border: 2px solid var(--secondary);
+}
+
+.outlined-complementary {
+  border: 2px solid var(--complementary);
+}
+
+.outlined-darkish {
+  border: 2px solid var(--darkish);
+}

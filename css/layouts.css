@@ -1,8 +1,6 @@
 body {
   display: grid;
-  width: 100vw;
   max-width: 1366px;
-  height: 100vh;
   grid-template-areas:
     "header"
     "main"
@@ -11,6 +9,7 @@ body {
   grid-template-rows: 50px 1fr auto;
   grid-row-gap: 15px;
   background-color: var(--greyish);
+  margin: 0 auto;
 }
 
 header {

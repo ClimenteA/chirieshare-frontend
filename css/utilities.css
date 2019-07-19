@@ -1,5 +1,5 @@
 .fluid {
-  width: 100vw !important;
+  width: 100% !important;
 }
 
 .tip {
@@ -21,4 +21,10 @@
 
 .mtop {
   margin-top: 1rem;
+}
+
+.btm-right {
+  position: absolute;
+  right: 1rem;
+  bottom: 0rem;
 }

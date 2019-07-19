@@ -5,9 +5,9 @@
   --secondary-lighten: #eb7060;
   --complementary: #4dc67d;
   --complementary-lighten: #58cf88;
-  --whiteish: #F7F7F7;
+  --whiteish: #f7f7f7;
   --whiteish-lighten: rgb(245, 241, 241);
-  --greyish: #E5E5E5;
+  --greyish: #e5e5e5;
   --darkish: #7c8f81;
   --darkish-lighten: #85998a;
 
@@ -21,6 +21,10 @@
 
 .primary {
   background: var(--primary) !important;
+}
+
+.primary-lighten {
+  background: var(--primary-lighten) !important;
 }
 
 .secondary {
@@ -43,10 +47,18 @@
   background: var(--darkish) !important;
 }
 
+.darkish-lighten {
+  background: var(--darkish-lighten) !important;
+}
+
 /* For text color */
 
 .primary-text {
   color: var(--primary) !important;
+}
+
+.primary-lighten-text {
+  color: var(--primary-lighten) !important;
 }
 
 .secondary-text {
@@ -67,6 +79,10 @@
 
 .darkish-text {
   color: var(--darkish) !important;
+}
+
+.darkish-lighten-text {
+  background: var(--darkish-lighten) !important;
 }
 
 /* ubuntu-regular - latin */
