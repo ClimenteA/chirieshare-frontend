@@ -130,8 +130,7 @@ article.card.product > .title {
     height: 250px;
   }
 
-  article.card.product > .title,
-  article.card.product > span.price {
+  article.card.product > .title {
     transform: scale(0.8);
   }
 }
@@ -141,8 +140,7 @@ article.card.product > .title {
     height: 200px;
   }
 
-  article.card.product > .title,
-  article.card.product > span.price {
+  article.card.product > .title {
     transform: scale(0.7);
   }
 }

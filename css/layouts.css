@@ -9,6 +9,7 @@ body {
   grid-template-rows: 50px 1fr auto;
   grid-row-gap: 15px;
   background-color: var(--greyish);
+  margin: 0 auto;
 }
 
 header {
