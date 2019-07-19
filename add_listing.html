@@ -17,9 +17,87 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <div class="filters">
+        <div class="filters-actions">
+          <h4 class="underlined darkish-text bold">Spre inchiriere</h4>
+          <button class="sm secondary bold">ofer camere</button>
+          <span class="tip">sau</span>
+          <button class="sm darkish bold">ofer apartament</button>
+        </div>
+        <div class="filters-inputs">
+          <label for="loc">
+            <span>Localitate/Oras</span>
+            <input type="text" id="loc" placeholder="Ex: Iasi, Bucuresti.." />
+          </label>
 
-    <footer class="mtop mtop mtop">
+          <label for="zona">
+            <span>Zona/Reper</span>
+            <input type="text" id="zona" placeholder="Ex: Centru Vechi.." />
+          </label>
+
+          <label for="pret">
+            <span>Pret (in euro)</span>
+            <input type="tel" id="pret" placeholder="Ex: 320" />
+          </label>
+
+          <div class="mixt">
+            <label for="camere">
+              <span>Nr. camere</span>
+              <input type="tel" id="camere" placeholder="Ex: 2" />
+            </label>
+
+            <label for="colegi">
+              <span>Nr. colegi</span>
+              <input type="tel" id="colegi" placeholder="Ex: 1" />
+            </label>
+
+            <label for="sex">
+              <span>M/F/Mixt</span>
+              <input type="tel" id="sex" placeholder="Ex: M (baieti)" />
+            </label>
+          </div>
+
+          <div class="fluid-over-grid">
+            <label for="descriere">
+              <span>Descriere</span>
+              <textarea
+                id="descriere"
+                placeholder="Ex: Introdu cat mai multe detalii"
+              >
+              </textarea>
+            </label>
+          </div>
+        </div>
+
+        <div class="images">
+          <label class="fluid-over-grid"
+            >Imagini <span class="tip">(0 incarcate)</span></label
+          >
+
+          <div class="file-input custom">
+            <input type="file" name="img1" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img2" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img3" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img4" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img5" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img6" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
       <a href="#">Politica Cookies</a>
       <a href="#">Politica de Confidentialitate</a>
       <a href="#">Termeni si Conditii</a>
@@ -47,12 +125,12 @@
 
       <label for="loc">
         <span class="secondary-text">Localitate</span>
-        <input type="text" id="loc" placeholder="text input" />
+        <input type="text" id="loc" placeholder="Ex: text input" />
       </label>
 
       <label for="zona">
         <span>Zona</span>
-        <input type="tel" id="zona" placeholder="tel input" />
+        <input type="tel" id="zona" placeholder="Ex: tel input" />
       </label>
     </div>
 

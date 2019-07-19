@@ -8,8 +8,12 @@
 @import "./cards.css";
 @import "./layouts.css";
 
+@import "./commun.css";
+
 /* @import "./landing.css"; */
 
-/* @import "./listings.css"; */
+@import "./listings.css";
 
-@import "./listing_details.css";
+/* @import "./listing_details.css"; */
+
+@import "./add_listing.css";
