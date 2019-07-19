@@ -28,3 +28,31 @@
   right: 1rem;
   bottom: 0rem;
 }
+
+.none {
+  display: none;
+}
+
+.block {
+  display: inline-block;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 25px;
+  background-color: var(--darkish);
+  color: white;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
