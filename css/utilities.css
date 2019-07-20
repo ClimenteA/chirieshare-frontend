@@ -64,3 +64,10 @@
 .underlined {
   text-decoration: underline;
 }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
