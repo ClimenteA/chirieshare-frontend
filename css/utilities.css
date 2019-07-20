@@ -2,6 +2,10 @@
   width: 100% !important;
 }
 
+.fluid-over-grid {
+  grid-column: 1/-1;
+}
+
 .tip {
   font-size: 12px;
   color: var(--darkish);
@@ -55,4 +59,15 @@
   width: 40px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

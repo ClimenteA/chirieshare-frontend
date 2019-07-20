@@ -18,66 +18,97 @@
     </header>
 
     <main>
-      <div class="carousel fluid">
-        <h2 class="title">Ap. 1 camera. Iasi, Nicolina</h2>
-        <ul class="images">
-          <li><img src="./pics/1.jpg" alt="" /></li>
-          <!-- <li><img src="./pics/2.jpg" alt="" /></li>
-                <li><img src="./pics/3.jpg" alt="" /></li>
-                <li><img src="./pics/4.jpg" alt="" /></li>
-                <li><img src="./pics/2.jpg" alt="" /></li>
-                <li><img src="./pics/3.jpg" alt="" /></li> -->
-        </ul>
+      <div class="filters">
+        <div class="filters-actions">
+          <h4 class="underlined darkish-text bold">Spre inchiriere</h4>
+          <button class="sm secondary bold">ofer camere</button>
+          <span class="tip">sau</span>
+          <button class="sm darkish bold">ofer apartament</button>
+        </div>
+        <div class="filters-inputs">
+          <label for="loc">
+            <span>Localitate/Oras</span>
+            <input type="text" id="loc" placeholder="Ex: Iasi, Bucuresti.." />
+          </label>
 
-        <img id="prev" src="./icons/chevron_left.svg" alt="prev" />
-        <img id="next" src="./icons/chevron_right.svg" alt="next" />
-        <span class="tip">Postat la 07 Iul 2019, 19:11</span>
+          <label for="zona">
+            <span>Zona/Reper</span>
+            <input type="text" id="zona" placeholder="Ex: Centru Vechi.." />
+          </label>
+
+          <label for="pret">
+            <span>Pret (in euro)</span>
+            <input type="tel" id="pret" placeholder="Ex: 320" />
+          </label>
+
+          <div class="mixt">
+            <label for="camere">
+              <span>Nr. camere</span>
+              <input type="tel" id="camere" placeholder="Ex: 2" />
+            </label>
+
+            <label for="colegi">
+              <span>Nr. colegi</span>
+              <input type="tel" id="colegi" placeholder="Ex: 1" />
+            </label>
+
+            <label for="sex">
+              <span>M/F/Mixt</span>
+              <input type="tel" id="sex" placeholder="Ex: M" />
+            </label>
+          </div>
+
+          <div class="fluid-over-grid">
+            <label for="descriere">
+              <span>Descriere</span>
+              <textarea
+                id="descriere"
+                placeholder="Ex: Introdu cat mai multe detalii"
+              ></textarea>
+            </label>
+          </div>
+        </div>
+
+        <div class="images">
+          <label class="fluid-over-grid"
+            >Imagini <span class="tip">(0 incarcate)</span></label
+          >
+
+          <div class="file-input custom">
+            <input type="file" name="img1" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img2" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img3" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img4" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img5" />
+          </div>
+          <div class="file-input custom">
+            <input type="file" name="img6" />
+          </div>
+        </div>
       </div>
 
-      <article class="card user fluid">
-        <section class="profile">
-          <img src="./pics/ca.jpg" />
-          <span class="name">Climente Alin</span>
-          <span class="about">Inginer, M, 28 ani</span>
-        </section>
-
-        <section class="contact">
-          <h3 class="bold">Contact</h3>
-          <button class="darkish">07151321251</button>
-          <button class="darkish">
-            alin.climente@gmail.com
-          </button>
-        </section>
-      </article>
-
-      <article class="card fluid">
-        <h3 class="title">Descriere</h3>
-        <p>
-          Apartamentul este situat aproape de supermarchet, de statiile de
-          autobuz. Se gaseste din pacate greu loc de parcare, dar daca ai
-          bicicleta poti sa o iei in apartament.
-        </p>
-        <span class="right bold secondary-text"> Pret: 200 euro </span>
-      </article>
-
-      <article class="card fluid">
-        <h3 class="title">Alte detalii</h3>
-        <p class="bold">
-          aragaz, masina de spalat, centrala termica, aproape de supermarchet,
-          loc de parcare
-        </p>
-      </article>
-
-      <article class="card fluid">
-        <h3 class="title">Colegi de share</h3>
-        <div class="chip"><img src="./pics/ca.jpg" />Climente Alin</div>
-        <button class="sm right complementary">
-          <img src="./icons/add.svg" alt="+" />
+      <div style="margin-top:2rem;"></div>
+      <div class="center">
+        <button class="lg complementary bold">
+          ADAUGA ANUNT
         </button>
-      </article>
+        <p class="darkish-text agree-text">
+          Prin adaugarea unui anunt esti automat de accord cu
+          <a href="#" class="bold underlined">Termenii si conditiile</a>
+        </p>
+      </div>
+      <div style="margin-top:2rem;"></div>
     </main>
 
-    <footer class="mtop mtop mtop">
+    <footer>
       <a href="#">Politica Cookies</a>
       <a href="#">Politica de Confidentialitate</a>
       <a href="#">Termeni si Conditii</a>
@@ -105,12 +136,12 @@
 
       <label for="loc">
         <span class="secondary-text">Localitate</span>
-        <input type="text" id="loc" placeholder="text input" />
+        <input type="text" id="loc" placeholder="Ex: text input" />
       </label>
 
       <label for="zona">
         <span>Zona</span>
-        <input type="tel" id="zona" placeholder="tel input" />
+        <input type="tel" id="zona" placeholder="Ex: tel input" />
       </label>
     </div>
 
