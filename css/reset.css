@@ -28,7 +28,6 @@ ul {
   list-style: none;
 }
 
-
 a {
   margin: 7px 0px 7px 0px;
   text-decoration: none;
@@ -38,4 +37,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-

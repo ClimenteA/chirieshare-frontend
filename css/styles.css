@@ -12,8 +12,10 @@
 
 /* @import "./landing.css"; */
 
-@import "./listings.css";
+/* @import "./listings.css"; */
 
 /* @import "./listing_details.css"; */
 
-@import "./add_listing.css";
+/* @import "./add_listing.css"; */
+
+@import "./user_page.css";
