@@ -7,7 +7,9 @@ button {
 
 .btn,
 button {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  place-content: center center;
   background-color: var(--primary);
   max-width: 90vw;
   min-height: 20px;
