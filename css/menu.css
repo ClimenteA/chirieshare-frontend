@@ -17,8 +17,11 @@ aside .avatar {
   border-radius: 5px;
   object-fit: cover;
   box-shadow: 0px 6px 6px var(--box-shadow);
+  transform: rotate(5deg);
+  transition: transform;
+  transition-duration: var(--transition-duration);
 }
 
 aside .avatar:hover {
-  transform: rotate(5deg);
+  transform: rotate(0deg);
 }
