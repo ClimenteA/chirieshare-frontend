@@ -39,10 +39,20 @@ main {
   margin: 0;
 }
 
+
+
 @media only screen and (max-width: 960px) {
   .listings {
     grid-template-columns: 1fr;
   }
+}
+
+
+.filters-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 420px) {
