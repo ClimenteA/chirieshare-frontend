@@ -3,7 +3,7 @@ footer {
   flex-direction: row;
   min-height: 90px;
   padding: 2rem;
-  background-color: var(--primary);
+  background-color: #101010;
   color: var(--whiteish);
 
 }
