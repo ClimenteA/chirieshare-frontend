@@ -9,6 +9,8 @@
 .tip {
   font-size: 12px;
   color: var(--darkish);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .bold {
@@ -63,6 +65,7 @@
 
 .underlined {
   text-decoration: underline;
+  margin-bottom: 16px;
 }
 
 .center {

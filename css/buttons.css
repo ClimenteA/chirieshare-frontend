@@ -66,17 +66,25 @@ button.lg {
 }
 
 .outlined {
+  color: var(--primary);
   border: 2px solid var(--primary);
+  background: transparent;
 }
 
 .outlined-secondary {
+  color: var(--primary);
   border: 2px solid var(--secondary);
+  background: transparent;
 }
 
 .outlined-complementary {
+  color: var(--primary);
   border: 2px solid var(--complementary);
+  background: transparent;
 }
 
 .outlined-darkish {
+  color: var(--primary);
   border: 2px solid var(--darkish);
+  background: transparent;
 }

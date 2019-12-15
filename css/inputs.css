@@ -77,6 +77,12 @@ label {
 .file-input > * {
   pointer-events: none;
 }
+
+.file-input:hover {
+  transform: scale(1.1);
+}
+
+
 .file-input > input[type="file"] {
   position: absolute;
   top: 0;
